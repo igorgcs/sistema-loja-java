@@ -4,6 +4,12 @@ public class Loja {
 
     static void main() {
 
+    System.out.println("Digite seu nome:");
+    Scanner leitor = new Scanner(System.in);
+    String nome = leitor.nextLine();
+    System.out.println("\n=====Bem vindo, " + nome +"!=====\n");
+    System.out.println("Abaixo estão os itens em estoque...\n");
+
 
     Produtos celular = new Produtos("Iphone 17", 9000.00, 5);
 
