@@ -11,7 +11,12 @@ public class Produtos {
     }
     void alterarNome (String novoNome) {
         nome = novoNome;
-        }
+    }
+    Produtos (String nome, double valor, int quantidadeEstoque) {
+        this.nome = nome;
+        this.valor = valor;
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
 
     }
 
