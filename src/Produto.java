@@ -1,18 +1,18 @@
-public class Produtos {
+public class Produto {
 
     String nome;
     double valor;
     int quantidadeEstoque;
 
     void exibirInformacoes() {
-        System.out.println(nome);
-        System.out.println(valor);
-        System.out.println(quantidadeEstoque + "\n");
+        System.out.println("Produto: " + nome);
+        System.out.println("Preço: R$ " + valor);
+        System.out.println("Estoque: " + quantidadeEstoque + " unidades\n");
     }
     void alterarNome (String novoNome) {
         nome = novoNome;
     }
-    Produtos (String nome, double valor, int quantidadeEstoque) {
+    Produto(String nome, double valor, int quantidadeEstoque) {
         this.nome = nome;
         this.valor = valor;
         this.quantidadeEstoque = quantidadeEstoque;
