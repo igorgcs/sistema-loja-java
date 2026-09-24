@@ -1,8 +1,8 @@
 public class Produto {
 
-    String nome;
-    double valor;
-    int quantidadeEstoque;
+    private String nome;
+    private double valor;
+    private int quantidadeEstoque;
 
     void exibirInformacoes() {
         System.out.println("Produto: " + nome);
