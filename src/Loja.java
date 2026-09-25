@@ -11,18 +11,18 @@ public class Loja {
     System.out.println("Abaixo estão os itens em estoque:\n");
 
 
-    Produto celular = new Produto("Iphone 17", 9000.00, 5);
+    Produto celular = new Eletronico("Apple","Iphone 17", 9000.00, 5, 12, "Bivolt"); //Criando um produto
 
-        celular.alterarNome("Iphone 18");
-        celular.exibirInformacoes();
+        celular.alterarNome("Iphone 18"); //Chamando metodo com parametros
+        celular.exibirInformacoes(); //Chamando o metodo
 
-    Produto notebook = new Produto("Notebook Samsung I5 8GB Ram", 3500.00, 10);
+    Produto notebook = new Eletronico("Samung", "Notebook", 3500.00, 10, 12, "Bivolt"); //Criando um produto
 
-        notebook.exibirInformacoes();
+        notebook.exibirInformacoes(); //Chamando o metodo
 
-    Produto videogame = new Produto("Playstation 4", 2000.00, 6);
+    Produto videogame = new Eletronico("Sony", "Playstation 4", 2000.00, 6, 24, "Bivolt"); //Criando um produto
 
-        videogame.exibirInformacoes();
+        videogame.exibirInformacoes(); //Chamando o metodo
 
 }
 }
